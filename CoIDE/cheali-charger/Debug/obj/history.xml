@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -Os -fno-rtti -fno-exceptions -std=c11 -std=c++11 -c -DSUPPORT_CPLUSPLUS -DNUC029LAN -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\generic -ID:\imax b6\coide_nuc029\src\core\strategy -ID:\imax b6\coide_nuc029\src\core\menus -ID:\imax b6\coide_nuc029\src\core\drivers -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029 -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\Device\Nuvoton\NUC029xAN\Include -ID:\imax b6\coide_nuc029\src\core -ID:\imax b6\coide_nuc029\src -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\generic\50W -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\inc -ID:\imax b6 -ID:\imax b6\coide_nuc029 -ID:\imax b6\coide_nuc029\src\core\screens -ID:\imax b6\coide_nuc029\src\core\strings -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\CMSIS -ID:\imax b6\coide_nuc029\src\core\helper -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\CMSIS\Include -ID:\imax b6\coide_nuc029\src\hardware -ID:\imax b6\coide_nuc029\src\core\calibration -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\targets\imaxB6-80W -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\Device\Nuvoton\NUC029xAN -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\targets -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS\Device\Nuvoton -ID:\imax b6\coide_nuc029\CoIDE -ID:\imax b6\coide_nuc029\src\hardware\nuvoton-NUC029\cpu\CMSIS">
+      <target file="Monitor.o" lastModified="16fab502fec">
+         <source file="..\..\..\..\src\core\strategy\Monitor.cpp" lastModified="16e01e54131"/>
+      </target>
+      <target file="AnalogInputs.o" lastModified="16fab505373">
+         <source file="..\..\..\..\src\core\AnalogInputs.cpp" lastModified="16e01e540c2"/>
+      </target>
+      <target file="TheveninChargeStrategy.o" lastModified="16fab5033e8">
+         <source file="..\..\..\..\src\core\strategy\TheveninChargeStrategy.cpp" lastModified="16e01e5415e"/>
+      </target>
+      <target file="imaxB6.o" lastModified="16fab5060cd">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\generic\50W\imaxB6.cpp" lastModified="16e242a7d71"/>
+      </target>
+      <target file="SimpleDischargeStrategy.o" lastModified="16fab507cc9">
+         <source file="..\..\..\..\src\core\strategy\SimpleDischargeStrategy.cpp" lastModified="16e01e5413a"/>
+      </target>
+      <target file="memory.o" lastModified="16fab50432c">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\memory.cpp" lastModified="16e0219f31e"/>
+      </target>
+      <target file="LCDAnalyzer.o" lastModified="16fab50641f">
+         <source file="..\..\..\..\src\core\helper\LCDAnalyzer.cpp" lastModified="16e01e54100"/>
+      </target>
+      <target file="Menu.o" lastModified="16fab504d1d">
+         <source file="..\..\..\..\src\core\menus\Menu.cpp" lastModified="16e01e54109"/>
+      </target>
+      <target file="Strategy.o" lastModified="16fab50330a">
+         <source file="..\..\..\..\src\core\strategy\Strategy.cpp" lastModified="16e01e54146"/>
+      </target>
+      <target file="defaultCalibration.o" lastModified="16fab506cb8">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\targets\imaxB6-80W\defaultCalibration.cpp" lastModified="16e1e934dc2"/>
+      </target>
+      <target file="timer.o" lastModified="16fab50359d">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\timer.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="CalibrationMenus.o" lastModified="16fab506879">
+         <source file="..\..\..\..\src\core\calibration\CalibrationMenus.cpp" lastModified="16e01e540dc"/>
+      </target>
+      <target file="BalancePortAnalyzer.o" lastModified="16fab5072d4">
+         <source file="..\..\..\..\src\core\helper\BalancePortAnalyzer.cpp" lastModified="16e01e540ff"/>
+      </target>
+      <target file="helperMain.o" lastModified="16fab5059fc">
+         <source file="..\..\..\..\src\core\helper\helperMain.cpp" lastModified="16e01e54103"/>
+      </target>
+      <target file="LcdPrint.o" lastModified="16fab5057c2">
+         <source file="..\..\..\..\src\core\drivers\LcdPrint.cpp" lastModified="16e01e540e9"/>
+      </target>
+      <target file="gpio.o" lastModified="16fab505554">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\gpio.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="ProgramData.o" lastModified="16fab505ed5">
+         <source file="..\..\..\..\src\core\ProgramData.cpp" lastModified="16e01e540d0"/>
+      </target>
+      <target file="adc.o" lastModified="16fab5062d9">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\adc.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="TxHardSerial.o" lastModified="16fab506fc9">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\TxHardSerial.cpp" lastModified="16e02967860"/>
+      </target>
+      <target file="AnalogInputsADC.o" lastModified="16fab507455">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\generic\50W\AnalogInputsADC.cpp" lastModified="16fab3ba57a"/>
+      </target>
+      <target file="DeltaChargeStrategy.o" lastModified="16fab503679">
+         <source file="..\..\..\..\src\core\strategy\DeltaChargeStrategy.cpp" lastModified="16e01e5412b"/>
+      </target>
+      <target file="uart.o" lastModified="16fab503da6">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\uart.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="outputPWM.o" lastModified="16fab504870">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\generic\50W\outputPWM.cpp" lastModified="16fab034734"/>
+      </target>
+      <target file="StartInfoStrategy.o" lastModified="16fab505d65">
+         <source file="..\..\..\..\src\core\strategy\StartInfoStrategy.cpp" lastModified="16e01e5413e"/>
+      </target>
+      <target file="Utils.o" lastModified="16fab506740">
+         <source file="..\..\..\..\src\core\Utils.cpp" lastModified="16e01e540d4"/>
+      </target>
+      <target file="ProgramDCcycle.o" lastModified="16fab50349c">
+         <source file="..\..\..\..\src\core\ProgramDCcycle.cpp" lastModified="16e01e540ce"/>
+      </target>
+      <target file="IO.o" lastModified="16fab506a55">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\IO.cpp" lastModified="16e01e54533"/>
+      </target>
+      <target file="Settings.o" lastModified="16fab505961">
+         <source file="..\..\..\..\src\core\Settings.cpp" lastModified="16e01e540d2"/>
+      </target>
+      <target file="SettingsMenu.o" lastModified="16fab506bf8">
+         <source file="..\..\..\..\src\core\menus\SettingsMenu.cpp" lastModified="16e01e54112"/>
+      </target>
+      <target file="SerialLog.o" lastModified="16fab502e97">
+         <source file="..\..\..\..\src\core\drivers\SerialLog.cpp" lastModified="16e0f0a2522"/>
+      </target>
+      <target file="strings.o" lastModified="16fab5039d0">
+         <source file="..\..\..\..\src\core\strings\strings.cpp" lastModified="16e01e5416a"/>
+      </target>
+      <target file="fmc.o" lastModified="16fab507a14">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\fmc.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="eeprom.o" lastModified="16fab507c4f">
+         <source file="..\..\..\..\src\core\eeprom.cpp" lastModified="16e01e540fa"/>
+      </target>
+      <target file="LiquidCrystal.o" lastModified="16fab503207">
+         <source file="..\..\..\..\src\core\drivers\LiquidCrystal.cpp" lastModified="16e01e540eb"/>
+      </target>
+      <target file="pwm.o" lastModified="16fab503b3f">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\pwm.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="ProgramMenus.o" lastModified="16fab503c30">
+         <source file="..\..\..\..\src\core\menus\ProgramMenus.cpp" lastModified="16e01e54110"/>
+      </target>
+      <target file="Program.o" lastModified="16fab507906">
+         <source file="..\..\..\..\src\core\Program.cpp" lastModified="16e01e540cb"/>
+      </target>
+      <target file="ADCKeyboardAnalyzer.o" lastModified="16fab504e05">
+         <source file="..\..\..\..\src\core\helper\ADCKeyboardAnalyzer.cpp" lastModified="16e01e540fc"/>
+      </target>
+      <target file="Discharger.o" lastModified="16fab503e6c">
+         <source file="..\..\..\..\src\core\strategy\Discharger.cpp" lastModified="16e01e5412e"/>
+      </target>
+      <target file="StackInfo.o" lastModified="16fab50308f">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\StackInfo.cpp" lastModified="16e01e54538"/>
+      </target>
+      <target file="CurrentCalibrationMenus.o" lastModified="16fab504224">
+         <source file="..\..\..\..\src\core\calibration\CurrentCalibrationMenus.cpp" lastModified="16e01e540de"/>
+      </target>
+      <target file="cpu.o" lastModified="16fab5070a4">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\cpu.cpp" lastModified="16e02196e3a"/>
+      </target>
+      <target file="TxSoftSerial.o" lastModified="16fab506997">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\TxSoftSerial.cpp" lastModified="16e0ef4325d"/>
+      </target>
+      <target file="Thevenin.o" lastModified="16fab506da3">
+         <source file="..\..\..\..\src\core\strategy\Thevenin.cpp" lastModified="16e01e5415c"/>
+      </target>
+      <target file="DelayStrategy.o" lastModified="16fab5076e4">
+         <source file="..\..\..\..\src\core\strategy\DelayStrategy.cpp" lastModified="16e01e54129"/>
+      </target>
+      <target file="startup_NUC029xAN.o" lastModified="16fab5074e6">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\startup_NUC029xAN.c" lastModified="16e01e54549"/>
+      </target>
+      <target file="TheveninDischargeStrategy.o" lastModified="16fab502c7a">
+         <source file="..\..\..\..\src\core\strategy\TheveninDischargeStrategy.cpp" lastModified="16e01e54161"/>
+      </target>
+      <target file="Calibration.o" lastModified="16fab5061da">
+         <source file="..\..\..\..\src\core\calibration\Calibration.cpp" lastModified="16e01e540da"/>
+      </target>
+      <target file="MainMenu.o" lastModified="16fab504527">
+         <source file="..\..\..\..\src\core\menus\MainMenu.cpp" lastModified="16e01e54106"/>
+      </target>
+      <target file="other.o" lastModified="16fab5037de">
+         <source file="..\..\..\other.c" lastModified="16e01e53c11"/>
+      </target>
+      <target file="cprintf.o" lastModified="16fab50564e">
+         <source file="..\..\..\..\src\core\drivers\cprintf.cpp" lastModified="16e01e540f5"/>
+      </target>
+      <target file="AnalogInputsAnalyzer.o" lastModified="16fab5071c1">
+         <source file="..\..\..\..\src\core\helper\AnalogInputsAnalyzer.cpp" lastModified="16e01e540fd"/>
+      </target>
+      <target file="clk.o" lastModified="16fab505c6a">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\clk.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="ProgramDataMenu.o" lastModified="16fab5038ec">
+         <source file="..\..\..\..\src\core\menus\ProgramDataMenu.cpp" lastModified="16e01e5410e"/>
+      </target>
+      <target file="AnalogInputsTypes.o" lastModified="16fab503710">
+         <source file="..\..\..\..\src\core\AnalogInputsTypes.cpp" lastModified="16e01e540c6"/>
+      </target>
+      <target file="Blink.o" lastModified="16fab506aff">
+         <source file="..\..\..\..\src\core\drivers\Blink.cpp" lastModified="16e01e540e1"/>
+      </target>
+      <target file="Keyboard.o" lastModified="16fab50474d">
+         <source file="..\..\..\..\src\core\drivers\Keyboard.cpp" lastModified="16e01e540e6"/>
+      </target>
+      <target file="SimpleChargeStrategy.o" lastModified="16fab504960">
+         <source file="..\..\..\..\src\core\strategy\SimpleChargeStrategy.cpp" lastModified="16e01e54136"/>
+      </target>
+      <target file="OptionsMenu.o" lastModified="16fab503f3c">
+         <source file="..\..\..\..\src\core\menus\OptionsMenu.cpp" lastModified="16e01e5410c"/>
+      </target>
+      <target file="UtilsD.o" lastModified="16fab502d20">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\UtilsD.cpp" lastModified="16e01e5453e"/>
+      </target>
+      <target file="Timer0.o" lastModified="16fab505faf">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\Timer0.cpp" lastModified="16e023e1a3c"/>
+      </target>
+      <target file="Serial.o" lastModified="16fab5064c4">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\Serial.cpp" lastModified="16e0ec98920"/>
+      </target>
+      <target file="ScreenEditable.o" lastModified="16fab504109">
+         <source file="..\..\..\..\src\core\screens\ScreenEditable.cpp" lastModified="16e01e5411d"/>
+      </target>
+      <target file="sys.o" lastModified="16fab504406">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\StdDriver\src\sys.c" lastModified="16e01e6b868"/>
+      </target>
+      <target file="EditMenu.o" lastModified="16fab505b23">
+         <source file="..\..\..\..\src\core\menus\EditMenu.cpp" lastModified="16e01e54104"/>
+      </target>
+      <target file="SMPS.o" lastModified="16fab504ed4">
+         <source file="..\..\..\..\src\core\strategy\SMPS.cpp" lastModified="16e01e54133"/>
+      </target>
+      <target file="ScreenStartInfo.o" lastModified="16fab502baa">
+         <source file="..\..\..\..\src\core\screens\ScreenStartInfo.cpp" lastModified="16e01e54123"/>
+      </target>
+      <target file="StorageStrategy.o" lastModified="16fab504a47">
+         <source file="..\..\..\..\src\core\strategy\StorageStrategy.cpp" lastModified="16e01e54143"/>
+      </target>
+      <target file="TheveninMethod.o" lastModified="16fab50514f">
+         <source file="..\..\..\..\src\core\strategy\TheveninMethod.cpp" lastModified="16e01e54163"/>
+      </target>
+      <target file="system_NUC029xAN.o" lastModified="16fab504020">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\cpu\CMSIS\Device\Nuvoton\NUC029xAN\Source\system_NUC029xAN.c" lastModified="16e01e6b848"/>
+      </target>
+      <target file="PolarityCheck.o" lastModified="16fab505875">
+         <source file="..\..\..\..\src\core\drivers\PolarityCheck.cpp" lastModified="16e01e540ed"/>
+      </target>
+      <target file="Time.o" lastModified="16fab50547c">
+         <source file="..\..\..\..\src\core\drivers\Time.cpp" lastModified="16e01e540f3"/>
+      </target>
+      <target file="ScreenBalancer.o" lastModified="16fab5077ed">
+         <source file="..\..\..\..\src\core\screens\ScreenBalancer.cpp" lastModified="16e01e54118"/>
+      </target>
+      <target file="SMPS_PID.o" lastModified="16fab5065e6">
+         <source file="..\..\..\..\src\hardware\nuvoton-NUC029\generic\50W\SMPS_PID.cpp" lastModified="16e245ab98f"/>
+      </target>
+      <target file="ChealiCharger2.o" lastModified="16fab504606">
+         <source file="..\..\..\..\src\core\ChealiCharger2.cpp" lastModified="16e0247b018"/>
+      </target>
+      <target file="Buzzer.o" lastModified="16fab507b23">
+         <source file="..\..\..\..\src\core\drivers\Buzzer.cpp" lastModified="16e01e540e4"/>
+      </target>
+      <target file="ScreenCycle.o" lastModified="16fab506e8a">
+         <source file="..\..\..\..\src\core\screens\ScreenCycle.cpp" lastModified="16e01e5411b"/>
+      </target>
+      <target file="Balancer.o" lastModified="16fab504bc8">
+         <source file="..\..\..\..\src\core\strategy\Balancer.cpp" lastModified="16e01e54126"/>
+      </target>
+      <target file="Screen.o" lastModified="16fab50501f">
+         <source file="..\..\..\..\src\core\screens\Screen.cpp" lastModified="16e01e54116"/>
+      </target>
+      <target file="ScreenMethods.o" lastModified="16fab50760b">
+         <source file="..\..\..\..\src\core\screens\ScreenMethods.cpp" lastModified="16e01e5411f"/>
+      </target>
+   </processor>
+</history>
